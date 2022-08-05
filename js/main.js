@@ -41,9 +41,6 @@ controle.forEach( (elemento) => {
     })
 })
 
-/* somar.addEventListener("click", () => {manipulaDados("somar") // Função Anônima | Arrow Function
-}) */
-
 
 function manipulaDados(operacao, controle){
     const peca = controle.querySelector("[data-contador]")
@@ -55,12 +52,6 @@ function manipulaDados(operacao, controle){
     }
 }
 
-/* function dizOi(nome) {
-    console.log(nome)
-    console.log("Bem-vindo ao Robotron 2000")
-}
-
-dizOi("Pedro") */
 
 function atualizaEstatisticas(peca){
     estatisticas.forEach((elemento) => {
